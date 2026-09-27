@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Infographic và video YouTube của bài tập Lab 05.">
+	<title>Bài tập Lab 05 | Infographic và video</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 32px 20px;
+			background: #f3f7f4;
+			color: #203b34;
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+		}
+
+		main {
+			width: min(100%, 1000px);
+			margin: 0 auto;
+		}
+
+		header {
+			margin-bottom: 28px;
+			padding: 24px 28px;
+			background: #1e493e;
+			color: #fff;
+			border-bottom: 5px solid #e36a4d;
+		}
+
+		h1 { margin: 0 0 8px; }
+		header p { margin: 0; color: #e1eee6; }
+
+		.content {
+			display: grid;
+			grid-template-columns: 1.1fr 0.9fr;
+			gap: 28px;
+			align-items: start;
+		}
+
+		h2 { margin-top: 0; font-size: 1.2rem; }
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		iframe {
+			display: block;
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			border: 0;
+			background: #172c27;
+		}
+
+		footer {
+			margin-top: 32px;
+			padding-top: 16px;
+			border-top: 1px solid #cbd8d0;
+			color: #52665e;
+			font-size: 0.9rem;
+		}
+
+		@media (max-width: 700px) {
+			body { padding: 20px 16px; }
+			header { padding: 20px; }
+			.content { grid-template-columns: 1fr; gap: 24px; }
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Bài tập Lab 05</h1>
+			<p>Infographic và video hướng dẫn bài tập được tổng hợp trên cùng một trang.</p>
+		</header>
+
+		<div class="content">
+			<section aria-labelledby="infographic-title">
+				<h2 id="infographic-title">Infographic bài tập</h2>
+				<img src="Lab05_Ex2.1.png" alt="Infographic bài tập Lab 05">
+			</section>
+
+			<section aria-labelledby="video-title">
+				<h2 id="video-title">Video YouTube</h2>
+				<iframe
+					src="https://www.youtube-nocookie.com/embed/3y8lb4kaBb4"
+					title="Video hướng dẫn bài tập Lab 05"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
+			</section>
+		</div>
+
+		<footer>
+			<p>© Video và infographic thuộc quyền của tác giả hoặc chủ sở hữu tương ứng. Trang được sử dụng cho mục đích học tập; vui lòng ghi nguồn khi chia sẻ lại.</p>
+		</footer>
+	</main>
+</body>
+</html>
