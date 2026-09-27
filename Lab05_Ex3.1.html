@@ -1,102 +1,102 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Infographic và video YouTube của bài tập Lab 05.">
-	<title>Bài tập Lab 05 | Infographic và video</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 32px 20px;
-			background: #f3f7f4;
-			color: #203b34;
-			font-family: Arial, sans-serif;
-			line-height: 1.6;
-		}
-
-		main {
-			width: min(100%, 1000px);
-			margin: 0 auto;
-		}
-
-		header {
-			margin-bottom: 28px;
-			padding: 24px 28px;
-			background: #1e493e;
-			color: #fff;
-			border-bottom: 5px solid #e36a4d;
-		}
-
-		h1 { margin: 0 0 8px; }
-		header p { margin: 0; color: #e1eee6; }
-
-		.content {
-			display: grid;
-			grid-template-columns: 1.1fr 0.9fr;
-			gap: 28px;
-			align-items: start;
-		}
-
-		h2 { margin-top: 0; font-size: 1.2rem; }
-
-		img {
-			display: block;
-			width: 100%;
-			height: auto;
-		}
-
-		iframe {
-			display: block;
-			width: 100%;
-			aspect-ratio: 16 / 9;
-			border: 0;
-			background: #172c27;
-		}
-
-		footer {
-			margin-top: 32px;
-			padding-top: 16px;
-			border-top: 1px solid #cbd8d0;
-			color: #52665e;
-			font-size: 0.9rem;
-		}
-
-		@media (max-width: 700px) {
-			body { padding: 20px 16px; }
-			header { padding: 20px; }
-			.content { grid-template-columns: 1fr; gap: 24px; }
-		}
-	</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trang Giới Thiệu Cá Nhân</title>
+ 
+<style>
+body{
+font-family: Arial, sans-serif;
+margin: 20px;
+background-color: #f4f8fc;
+line-height: 1.6;
+}
+ 
+h1{
+text-align: center;
+color: darkblue;
+}
+ 
+h2{
+color: #1565c0;
+}
+ 
+.section{
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+ 
+img{
+max-width: 100%;
+border-radius: 10px;
+}
+ 
+iframe{
+width: 100%;
+aspect-ratio: 16/9;
+border: none;
+}
+ 
+footer{
+text-align: center;
+margin-top: 30px;
+color: gray;
+}
+</style>
 </head>
+ 
 <body>
-	<main>
-		<header>
-			<h1>Bài tập Lab 05</h1>
-			<p>Infographic và video hướng dẫn bài tập được tổng hợp trên cùng một trang.</p>
-		</header>
-
-		<div class="content">
-			<section aria-labelledby="infographic-title">
-				<h2 id="infographic-title">Infographic bài tập</h2>
-				<img src="Lab05_Ex2.1.png" alt="Infographic bài tập Lab 05">
-			</section>
-
-			<section aria-labelledby="video-title">
-				<h2 id="video-title">Video YouTube</h2>
-				<iframe
-					src="https://www.youtube-nocookie.com/embed/3y8lb4kaBb4"
-					title="Video hướng dẫn bài tập Lab 05"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen
-				></iframe>
-			</section>
-		</div>
-
-		<footer>
-			<p>© Video và infographic thuộc quyền của tác giả hoặc chủ sở hữu tương ứng. Trang được sử dụng cho mục đích học tập; vui lòng ghi nguồn khi chia sẻ lại.</p>
-		</footer>
-	</main>
+ 
+<h1>TRANG GIỚI THIỆU CÁ NHÂN</h1>
+ 
+<div class="section">
+<h2>Thông tin cá nhân</h2>
+ 
+<p><strong>Họ và tên:</strong> Vương Thị Mỹ Xuyên</p>
+ 
+<p><strong>MSSV:</strong> B2605324</p>
+ 
+<p>
+Xin chào! Tôi là sinh viên ngành Công nghệ Thông tin.
+Đây là trang web giới thiệu các sản phẩm đã thực hiện trong Lab 05.
+</p>
+</div>
+ 
+<div class="section">
+<h2>1. Báo cáo PDF</h2>
+ 
+<object data="Lab05_Ex1.2.pdf"
+type="application/pdf"
+width="100%"
+height="600">
+<p>Trình duyệt không hỗ trợ hiển thị PDF.</p>
+</object>
+</div>
+ 
+<div class="section">
+<h2>2. Infographic</h2>
+ 
+Lab05_Ex2.1.png
+</div>
+ 
+<div class="section">
+<h2>3. Video Youtube</h2>
+ 
+https://www.youtube.com/embed/3y8lb4kaBb4
+</iframe>
+</div>
+ 
+<footer>
+<p>© 2026 Vương Thị Mỹ Xuyên - B2605324</p>
+ 
+<p>Trang web được xây dựng phục vụ mục đích học tập môn CT005.</p>
+ 
+<p>Nguồn infographic: Canva AI và Unsplash (CC0).</p>
+</footer>
+ 
 </body>
 </html>
